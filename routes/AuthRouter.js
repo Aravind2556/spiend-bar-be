@@ -1,9 +1,7 @@
 const Express = require('express')
 const UserModel = require('../models/User')
 const isAuth = require('../middleware/isAuth')
-
 const AuthRouter = Express.Router()
-
 
 AuthRouter.post('/login', async(req, res)=>{
     try{

@@ -90,7 +90,7 @@ async function checkData() {
         const recent = data.feeds[data.feeds.length - 1];
         const fields = {
             "Cervical Value": Number(recent.field1),
-            "Choracic Value": Number(recent.field2),
+            "Thoracic Value": Number(recent.field2),
             "Lumber Value": Number(recent.field3),
             "Sacral Value": Number(recent.field4),
             "Left Shoulder Value": Number(recent.field5),
